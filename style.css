@@ -1,0 +1,399 @@
+* {
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #262626fc;
+    z-index: 3;
+}
+
+.logo img {
+    height: 80px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.menu a{
+    margin-right: 1.2rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: white;
+}
+.menu a:hover {
+    transition-duration: 0.21s;
+    color: goldenrod;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info div {
+    margin-right: 1rem;
+}
+.info div img {
+    height: 20px;
+}
+.mob-num, .mob-num p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-left: 1rem;
+}
+.mob-num img {
+    color: gold;
+}
+.mob-num p {
+    margin: auto;
+    margin-left: 0.51rem;
+}
+
+.appoint {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: goldenrod;
+    border-radius: 0.51rem;
+    color: white;
+    height: 2.5rem;
+    cursor: pointer;
+}
+.appoint .button, .button p{
+    margin: auto;
+    text-align: center;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+
+
+.home:hover {
+    color: white;
+}
+.hom-sec {
+    padding: 9rem;
+    /* color-mix(in oklab,var(--muted)50%,transparent) */
+    display: flex;
+    align-items: center;
+    /* background-color: color-mix(in oklab,var(--muted)50%,transparent); */
+    /* background-color: color-mix(in oklch decreasing hue, rgba(0, 0, 0, 0.945) 90%, rgba(0, 0, 0, 0.733) 20%); */
+    /* justify-content: space-between; */
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.986) 20%, #434343 130%); */
+    background-image: linear-gradient( 135deg, #262626fc 10%, #434343 100%);
+    padding-left: 30px;
+}
+
+div.home {
+    margin-top: 9rem;
+    margin-right: 3rem;
+}
+div.home .call:hover {
+    transition: 0.51s;
+    background-color: goldenrod;
+    color: black;
+    font-size: 14px;
+}
+div.home .book:hover {
+    transition: 0.5s;
+    font-size: 14px;
+    margin-top: 1.5px;
+}
+.home h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.home h1.premium {
+    color: rgb(218, 165, 32);
+    /* position: absolute; */
+    /* z-index: -0; */
+    /* text-decoration: underline;
+    background-color: transparent;
+    text-decoration-thickness: 11px;
+    text-decoration-color: rgba(255, 183, 0, 0.336);
+    text-decoration-: 2; */
+}
+.home h1 hr {
+    position: absolute;
+    height: 11px;
+    margin-top: -10px;
+    z-index: 2;
+    border: none;
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    width: 45%;
+}
+.home h4 {
+    color: goldenrod;
+    font-size: 15px;
+}
+.home p {
+    font-size: 20px;
+    color: rgb(129, 129, 129);
+}
+div.map {
+    display: flex;
+    text-align: left;
+    border: 1px solid rgb(68, 68, 68);
+    width: 11rem;
+    background-color: #202020;
+    height: 3rem;
+    border-radius: 19px;
+    cursor: pointer;
+}
+div.map p {
+    font-size: medium;
+    padding-right: 1rem;
+}
+div.map p:hover {
+    color: white;
+    transition: 0.1s;
+}
+div.map:hover {
+    color: white;
+    transition: 0.4s;
+    border-color: goldenrod;
+}
+
+div.btns {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+div.btns button {
+    width: 90%;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(59, 59, 59);
+    height: 3rem;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    font-size: small;
+}
+div.btns button img {
+    margin-right: 1rem;
+}
+
+div.btns button.book {
+    background-color: goldenrod;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.d-aro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: -5rem;
+}
+
+.sec1-img {
+    width: 50%;
+    margin-right: -6rem;
+    margin-left: -3rem;
+}
+.sec1-img img{
+    height: 300px;
+}
+.sec1-img img:hover {
+    transition: 0.6s;
+    height: 308px;
+}
+
+
+
+/* Section 2 */
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( 135deg, #0f0f0ffc 10%, #313131 100%);
+    height: 92vh;
+}
+.sec2-head, .sec3-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.sec2-head .sec2-title h4, .sec3-head .sec3-title h4 {
+    color: goldenrod;
+}
+.sec2-head .sec2-title h1, .sec3-head .sec3-title h1 {
+    color: white;
+    font-weight: 700;
+}
+.sec2-head .sec2-title, .sec3-head .sec3-title {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.sec2-head .sec2-title h1 .hr, .sec3-head .sec3-title h1 .hr  {
+    border: none;
+    /* margin-bottom: -4px; */
+    background-color: goldenrod;
+    border-radius: 4px;
+    height: 4px;
+    width: 20%;
+    margin: auto;
+    
+}
+.sec2-head p, .sec3-head p  {
+    font-size: large;
+    color: rgb(138, 138, 138);
+    text-align: center;
+    margin-top: 3.5rem;
+}
+
+.sec2-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+
+.sec2-body .img img {
+    width: 400px;
+    height: 300px;
+    border-radius: 19px;
+    margin-left: 1rem;
+}
+.sec2-body .img .exp {
+    background-color: goldenrod;
+    position: absolute;
+    display: flex;
+    height: 4rem;
+    width: 9rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+    border-radius: 1rem;
+    margin: -5rem 0 0 21rem;
+    rotate: 4deg;
+    z-index: 2;
+}
+.sec2-body .img .exp:hover {
+    transition-duration: 0.2s;
+    rotate: 0deg;
+}
+
+.sec2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(165, 165, 165);
+    margin-left: 5.8rem;
+    margin-right: 1.2rem;
+}
+.sec2-text .est {
+    border-left: 4px solid goldenrod;
+}
+.sec2-text .est p{
+    padding-left: 1rem;
+}
+.sec2-text div p {
+    font-size: 1.41rem;
+    
+}
+.sec2-text .dtl {
+    margin-top: 2rem;
+    background-color: #3a3838;
+    border-radius: 1rem;
+}
+.sec2-text .dtl h2 {
+    font-size: 3.5rem;
+    display: flex;
+    color: goldenrod;
+    margin-left: 1rem;
+    margin-bottom: -1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sec2-text .dtl h2:hover {
+    position: relative;
+    rotate: 4deg;
+}
+.dtl p {
+    padding-left: 1.5rem;
+}
+
+.sec3 {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( 135deg, #0f0f0ffc 10%, #313131 100%);
+}
+.sec3-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec3-head-text {
+    width: 80%;
+}
+.sec3-body {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: self-start;
+}
+.sec3-body .card {
+    color: rgb(121, 121, 121);
+    border: 1px solid rgb(77, 77, 77);
+    width: 28rem;
+    height: 29rem;
+    background-color: rgb(41, 40, 40);
+    /* background-color: inherit; */
+    margin: 3rem;
+    border-radius: 1.5rem;
+}
+.sec3-body .card img {
+    margin: 1rem;
+    width: 4rem;
+}
+.sec3-body .card div:first-child {
+    height: auto;
+    margin: 1rem;
+    width: 6rem;
+    background-color: #363636;
+    border-radius: 1rem;
+    /* border: 1px solid rgb(51, 50, 50); */
+}
+div.sec3-body div.card .card-body .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.15rem;
+}
+.card .card-body .card-title {
+    font-size: large;
+    font-weight: 600;
+    color: white;
+}
