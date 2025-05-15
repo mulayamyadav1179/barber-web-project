@@ -397,3 +397,14 @@ div.sec3-body div.card .card-body .card-text {
     font-weight: 600;
     color: white;
 }
+
+.hr  {
+    border: none;
+    /* margin-bottom: -4px; */
+    background-color: goldenrod;
+    border-radius: 4px;
+    height: 4px;
+    width: 20%;
+    margin: auto;
+    
+}
